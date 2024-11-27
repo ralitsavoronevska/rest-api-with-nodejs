@@ -1,0 +1,17 @@
+npm install --save express => Express is a node js web application framework that provides 
+broad features for building web and mobile applications. It is used to build a single page, 
+multipage, and hybrid web application. It's a layer built on the top of the Node js that 
+helps manage servers and routes.
+
+npm install --save-dev nodemon => To use it add a script in your package.json file, like this:
+"start": "nodemon server.js"
+and then you can use npm start in the terminal of your project
+
+npm install --save morgan => Loggin package
+
+npm install --save body-parser => We can use this package to parse the body of an incoming requests,
+because it's not nicely formatted and easily readable by default in node.js and we can then use that
+data. Body-parser does not support files, for example, but it does support URL encoded bodies and
+it also supports json data. 
+
+npm install --save mongoose

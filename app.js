@@ -12,6 +12,7 @@ mongoose.connect(
     process.env.MONGO_ATLAS_PW +
     "@node-rest-shop.e8zkr.mongodb.net/"
 );
+mongoose.Promise = global.Promise;
 
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));

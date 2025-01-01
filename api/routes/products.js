@@ -72,7 +72,7 @@ router.get("/:productId", (req, res, next) => {
     .select("name price _id")
     .exec()
     .then((doc) => {
-      console.log(doc);
+      console.log("From database", doc);
       if (doc) {
         res.status(200).json({
           product: doc,

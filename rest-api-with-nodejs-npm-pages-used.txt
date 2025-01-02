@@ -15,3 +15,5 @@ data. Body-parser does not support files, for example, but it does support URL e
 it also supports json data. 
 
 npm install --save mongoose
+
+npm install --save multer => Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files

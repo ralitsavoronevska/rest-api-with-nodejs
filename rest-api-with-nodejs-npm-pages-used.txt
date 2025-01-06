@@ -21,3 +21,5 @@ npm install --save multer => Multer is a node.js middleware for handling multipa
 npm install bcrypt --save => https://github.com/kelektiv/node.bcrypt.js
 
 npm install jsonwebtoken --save => https://github.com/auth0/node-jsonwebtoken
+
+npm install --save express-async-handler => Simple middleware for handling exceptions inside of async express routes and passing them to your express error handlers.
